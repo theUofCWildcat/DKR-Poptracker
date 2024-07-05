@@ -1,19 +1,17 @@
 [
     {
         "name": "Dragon_Forest",
-        "chest_unopened_img": "images/Base_Balloon.png",
-        "chest_opened_img": "images/Missing_Balloon.png",
+        "chest_unopened_img": "images/items/Base_Balloon.png",
+        "chest_opened_img": "images/items/Missing_Balloon.png",
         "access_rules": [
             "$CheckBalloons|16"
         ],
-        "map_locations": [
-            {
                 "map_locations": [
                     {
                         "map": "map1",
                         "x": 380,
                         "y": 519,
-                        "size": 96,
+                        "size": 28,
                         "border_thickness": 2
                     }
                 ],
@@ -48,8 +46,8 @@
                     },
                     {
                         "name": "Smokey 1",
-                        "chest_unopened_img": "images/Smokey.png",
-                        "chest_opened_img": "images/Missing_Smokey.png",
+                        "chest_unopened_img": "images/items/Smokey.png",
+                        "chest_opened_img": "images/items/Missing_Smokey.png",
                         "item_count": 1,
                         "access_rules": [
                             "$CheckForestBalloons|4"
@@ -59,55 +57,55 @@
                         "name": "Windmill Plains 2",
                         "item_count": 1,
                         "access_rules": [
-                            "$CheckBalloons|23",
-                            "smokey1_clear"
+                            ["$CheckBalloons|23",
+                            "smokey1_clear"]
                         ]
                     },
                     {
                         "name": "Greenwood Village 2",
                         "item_count": 1,
                         "access_rules": [
-                            "$CheckBalloons|24",
-                            "smokey1_clear"
+                            ["$CheckBalloons|24",
+                            "smokey1_clear"]
                         ]
                     },
                     {
                         "name": "Boulder Canyon 2",
                         "item_count": 1,
                         "access_rules": [
-                            "$CheckBalloons|30",
-                            "smokey1_clear"
+                            ["$CheckBalloons|30",
+                            "smokey1_clear"]
                         ]
                     },
                     {
                         "name": "Haunted Woods 2",
                         "item_count": 1,
                         "access_rules": [
-                            "$CheckBalloons|37",
-                            "smokey1_clear"
+                            ["$CheckBalloons|37",
+                            "smokey1_clear"]
                         ]
                     },
                     {
                         "name": "Smokey 2",
-                        "chest_unopened_img": "images/Smokey2.png",
-                        "chest_opened_img": "images/Missing_Smokey.png",
+                        "chest_unopened_img": "images/items/Smokey2.png",
+                        "chest_opened_img": "images/items/Missing_Smokey.png",
                         "item_count": 1,
                         "access_rules": [
-                            "$CheckForestBalloons|8",
-                            "smokey1_clear"
+                            ["$CheckForestBalloons|8",
+                            "smokey1_clear"]
                         ]
                     },
                     {
-                        "name": "Darkwater Beach",
+                        "name": "Smokey Castle",
                         "item_count": 1,
                         "access_rules": [
-                            "sherbert_key"
+                            "forest_key"
                         ]
                     },
                     {
                         "name": "Forest Key",
-                        "chest_unopened_img": "images/Base_Key.png",
-                        "chest_opened_img": "images/Missing_Key.png",
+                        "chest_unopened_img": "images/items/Base_Key.png",
+                        "chest_opened_img": "images/items/Missing_Key.png",
                         "item_count": 1,
                         "access_rules": [
                             "$CheckBalloons|20"
@@ -115,18 +113,16 @@
                     },
                     {
                         "name": "Forest Trophy",
-                        "chest_unopened_img": "images/Trophy.png",
-                        "chest_opened_img": "images/Missing_Trophy.png",
+                        "chest_unopened_img": "images/items/Trophy.png",
+                        "chest_opened_img": "images/items/Missing_Trophy.png",
                         "item_count": 1,
                         "visibility_rules": [
-                            "TrophyRacesOn"
+                            "trophies_unskipped"
                         ],
                         "access_rules": [
                             "smokey2_clear"
                         ]
                     }
                 ]
-            }            
-        ]
-    }
+            }
 ]

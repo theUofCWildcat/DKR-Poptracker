@@ -1,26 +1,26 @@
 [
     {
-        "name": "Dino_Trophy",
+        "name": "Dino Domain Trophy",
         "type": "toggle",
-        "img": "images/items/Dino_Trophy",
+        "img": "images/items/Dino_Trophy.png",
         "codes": "dino_trophy"
     },
     {
-        "name": "Snow_Trophy",
+        "name": "Snowpeak Mountain Trophy",
         "type": "toggle",
-        "img": "images/items/Snow_Trophy",
+        "img": "images/items/Snow_Trophy.png",
         "codes": "snow_trophy"
     },
     {
-        "name": "Sherbet_Trophy",
+        "name": "Sherbet Island Trophy",
         "type": "toggle",
-        "img": "images/items/Sherbet_Trophy",
+        "img": "images/items/Sherbet_Trophy.png",
         "codes": "sherbet_trophy"
     },
     {
-        "name": "Forest_Trophy",
+        "name": "Dragon Forest Trophy",
         "type": "toggle",
-        "img": "images/items/Forest_Trophy",
+        "img": "images/items/Forest_Trophy.png",
         "codes": "forest_trophy"
     }
 ]

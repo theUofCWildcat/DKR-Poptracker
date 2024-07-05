@@ -9,17 +9,17 @@
             {
                 "img": "images/items/Missing_Tricky.png",
                 "codes": "tricky0_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             },
             {
                 "img": "images/items/Tricky.png",
                 "codes": "tricky1_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             },
             {
                 "img": "images/items/Tricky2.png",
                 "codes": "tricky2_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             }
         ]
     },
@@ -33,17 +33,17 @@
             {
                 "img": "images/items/Missing_Bluey.png",
                 "codes": "bluey0_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             },
             {
                 "img": "images/items/Bluey.png",
                 "codes": "bluey1_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             },
             {
                 "img": "images/items/Bluey2.png",
                 "codes": "bluey2_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             }
         ]
     },
@@ -57,17 +57,17 @@
             {
                 "img": "images/items/Missing_Bubbler.png",
                 "codes": "bubbler0_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             },
             {
                 "img": "images/items/Bubbler.png",
                 "codes": "bubbler1_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             },
             {
                 "img": "images/items/Bubbler2.png",
                 "codes": "bubbler2_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             }
         ]
     },
@@ -81,17 +81,17 @@
             {
                 "img": "images/items/Missing_Smokey.png",
                 "codes": "smokey0_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             },
             {
                 "img": "images/items/Smokey.png",
                 "codes": "smokey1_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             },
             {
                 "img": "images/items/Smokey2.png",
                 "codes": "smokey2_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             }
         ]
     },
@@ -105,12 +105,12 @@
             {
                 "img": "images/items/Missing_Wizpig.png",
                 "codes": "wizpig0_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             },
             {
                 "img": "images/items/Wizpig.png",
                 "codes": "wizpig1_clear",
-                "inherit_codes": false
+                "inherit_codes": true
             }
         ]
     }

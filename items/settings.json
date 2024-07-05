@@ -3,7 +3,7 @@
         "name": "Goal",
         "type": "progressive",
         "loop": "true",
-        "allow_disabled": true,
+        "allow_disabled": false,
         "initial_stage_idx": 0,
         "codes": "goal",
         "stages": [
@@ -23,7 +23,7 @@
         "name": "Wizpig Amulet Randomized",
         "type": "progressive",
         "loop": "true",
-        "allow_disabled": true,
+        "allow_disabled": false,
         "initial_stage_idx": 0,
         "codes": "wizpig_amulet_randomized",
         "stages": [
@@ -43,7 +43,7 @@
         "name": "TT Amulet Randomized",
         "type": "progressive",
         "loop": "true",
-        "allow_disabled": true,
+        "allow_disabled": false,
         "initial_stage_idx": 0,
         "codes": "tt_amulet_randomized",
         "stages": [
@@ -63,7 +63,7 @@
         "name": "Skip Trophy Races",
         "type": "progressive",
         "loop": "true",
-        "allow_disabled": true,
+        "allow_disabled": false,
         "initial_stage_idx": 0,
         "codes": "skip_trophy_races",
         "stages": [

@@ -1,19 +1,17 @@
 [
     {
         "name": "Snowflake_Mountain",
-        "chest_unopened_img": "images/Base_Balloon.png",
-        "chest_opened_img": "images/Missing_Balloon.png",
+        "chest_unopened_img": "images/items/Base_Balloon.png",
+        "chest_opened_img": "images/items/Missing_Balloon.png",
         "access_rules": [
             "$CheckBalloons|2"
         ],
-        "map_locations": [
-            {
                 "map_locations": [
                     {
                         "map": "map1",
                         "x": 73,
                         "y": 62,
-                        "size": 96,
+                        "size": 28,
                         "border_thickness": 2
                     }
                 ],
@@ -48,8 +46,8 @@
                     },
                     {
                         "name": "Bluey 1",
-                        "chest_unopened_img": "images/Bluey.png",
-                        "chest_opened_img": "images/Missing_Bluey.png",
+                        "chest_unopened_img": "images/items/Bluey.png",
+                        "chest_opened_img": "images/items/Missing_Bluey.png",
                         "item_count": 1,
                         "access_rules": [
                             "$CheckSnowBalloons|4"
@@ -59,42 +57,42 @@
                         "name": "Everfrost Peak 2",
                         "item_count": 1,
                         "access_rules": [
-                            "$CheckBalloons|10",
-                            "bluey1_clear"
+                            ["$CheckBalloons|10",
+                            "bluey1_clear"]
                         ]
                     },
                     {
                         "name": "Walrus Cove 2",
                         "item_count": 1,
                         "access_rules": [
-                            "$CheckBalloons|11",
-                            "bluey1_clear"
+                            ["$CheckBalloons|11",
+                            "bluey1_clear"]
                         ]
                     },
                     {
                         "name": "Snowball Valley 2",
                         "item_count": 1,
                         "access_rules": [
-                            "$CheckBalloons|14",
-                            "bluey1_clear"
+                            ["$CheckBalloons|14",
+                            "bluey1_clear"]
                         ]
                     },
                     {
                         "name": "Frosty Village 2",
                         "item_count": 1,
                         "access_rules": [
-                            "$CheckBalloons|16",
-                            "bluey1_clear"
+                            ["$CheckBalloons|16",
+                            "bluey1_clear"]
                         ]
                     },
                     {
                         "name": "Bluey 2",
-                        "chest_unopened_img": "images/Bluey2.png",
-                        "chest_opened_img": "images/Missing_Bluey.png",
+                        "chest_unopened_img": "images/items/Bluey2.png",
+                        "chest_opened_img": "images/items/Missing_Bluey.png",
                         "item_count": 1,
                         "access_rules": [
-                            "$CheckSnowBalloons|8",
-                            "bluey1_clear"
+                            ["$CheckSnowBalloons|8",
+                            "bluey1_clear"]
                         ]
                     },
                     {
@@ -106,8 +104,8 @@
                     },
                     {
                         "name": "Snow Key",
-                        "chest_unopened_img": "images/Base_Key.png",
-                        "chest_opened_img": "images/Missing_Key.png",
+                        "chest_unopened_img": "images/items/Base_Key.png",
+                        "chest_opened_img": "images/items/Missing_Key.png",
                         "item_count": 1,
                         "access_rules": [
                             "$CheckBalloons|6"
@@ -115,18 +113,16 @@
                     },
                     {
                         "name": "Snow Trophy",
-                        "chest_unopened_img": "images/Trophy.png",
-                        "chest_opened_img": "images/Missing_Trophy.png",
+                        "chest_unopened_img": "images/items/Trophy.png",
+                        "chest_opened_img": "images/items/Missing_Trophy.png",
                         "item_count": 1,
                         "visibility_rules": [
-                            "TrophyRacesOn"
+                            "trophies_unskipped"
                         ],
                         "access_rules": [
                             "bluey2_clear"
                         ]
                     }
                 ]
-            }            
-        ]
     }
 ]

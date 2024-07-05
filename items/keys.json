@@ -1,24 +1,24 @@
 [
     {
-        "name": "Dino_Key",
+        "name": "Dino Domain Key",
         "type": "toggle",
         "img": "images/items/Dino_Key.png",
         "codes": "dino_key"
     },
     {
-        "name": "Snow_Key",
+        "name": "Snowpeak Mountain Key",
         "type": "toggle",
         "img": "images/items/Snow_Key.png",
         "codes": "snow_key"
     },
     {
-        "name": "Sherbet_Key",
+        "name": "Sherbet Island Key",
         "type": "toggle",
         "img": "images/items/Sherbet_Key.png",
         "codes": "sherbet_key"
     },
     {
-        "name": "Forest_Key",
+        "name": "Dragon Forest Key",
         "type": "toggle",
         "img": "images/items/Forest_Key.png",
         "codes": "forest_key"

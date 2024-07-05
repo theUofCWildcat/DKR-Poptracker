@@ -30,14 +30,14 @@ Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/trophies.json")
 
 -- Maps
-Tracker:AddMaps("maps/maps.json")    
+Tracker:AddMaps("maps/maps.json")   
 -- Locations
 Tracker:AddLocations("locations/Dino_Domain.json")
 Tracker:AddLocations("locations/Snowflake_Mountain.json")
 Tracker:AddLocations("locations/Sherbet_Island.json")
 Tracker:AddLocations("locations/Dragon_Forest.json")
 Tracker:AddLocations("locations/Future_Fun_Land.json")
-Tracker:AddLocations("locations/Overworld.json")
+Tracker:AddLocations("locations/Overworld.json") 
 
 -- Layout
 Tracker:AddLayouts("layouts/items.json")
