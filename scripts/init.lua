@@ -3,8 +3,6 @@
 ENABLE_DEBUG_LOG = true
 -- get current variant
 local variant = Tracker.ActiveVariantUID
--- check variant info
-IS_ITEMS_ONLY = variant:find("itemsonly")
 
 print("-- Example Tracker --")
 print("Loaded variant: ", variant)
@@ -24,19 +22,29 @@ ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Items
-Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/amulets.json")
+Tracker:AddItems("items/balloons.json")
+Tracker:AddItems("items/bosses.json")
+Tracker:AddItems("items/keys.json")
+Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/trophies.json")
 
-if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
-    -- Maps
-    Tracker:AddMaps("maps/maps.json")    
-    -- Locations
-    Tracker:AddLocations("locations/locations.json")
-end
+-- Maps
+Tracker:AddMaps("maps/maps.json")    
+-- Locations
+Tracker:AddLocations("locations/Dino_Domain.json")
+Tracker:AddLocations("locations/Snowflake_Mountain.json")
+Tracker:AddLocations("locations/Sherbet_Island.json")
+Tracker:AddLocations("locations/Dragon_Forest.json")
+Tracker:AddLocations("locations/Future_Fun_Land.json")
+Tracker:AddLocations("locations/Overworld.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/items.json")
-Tracker:AddLayouts("layouts/tracker.json")
+Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/tracker.json")
+Tracker:AddLayouts("layouts/layout.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

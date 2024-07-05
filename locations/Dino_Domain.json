@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Dino_Domain",
+        "chest_unopened_img": "images/Base_Balloon.png",
+        "chest_opened_img": "images/Missing_Balloon.png",
+        "access_rules": [
+            "$CheckBalloons|1"
+        ],
+        "map_locations": [
+            {
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 133,
+                        "y": 416,
+                        "size": 96,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Lake 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|1"
+                        ]
+                    },
+                    {
+                        "name": "Fossil Canyon 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|2"
+                        ]
+                    },
+                    {
+                        "name": "Jungle Falls 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|3"
+                        ]
+                    },
+                    {
+                        "name": "Hot Top Volcano 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|5"
+                        ]
+                    },
+                    {
+                        "name": "Tricky 1",
+                        "chest_unopened_img": "images/Tricky.png",
+                        "chest_opened_img": "images/Missing_Tricky.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckDinoBalloons|4"
+                        ]
+                    },
+                    {
+                        "name": "Ancient Lake 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|6",
+                            "smokey1_clear"
+                        ]
+                    },
+                    {
+                        "name": "Fossil Canyon 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|7",
+                            "smokey1_clear"
+                        ]
+                    },
+                    {
+                        "name": "Jungle Falls 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|8",
+                            "smokey1_clear"
+                        ]
+                    },
+                    {
+                        "name": "Hot Top Volcano 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|10",
+                            "smokey1_clear"
+                        ]
+                    },
+                    {
+                        "name": "Tricky 2",
+                        "chest_unopened_img": "images/Tricky2.png",
+                        "chest_opened_img": "images/Missing_Tricky.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckDinoBalloons|8",
+                            "smokey1_clear"
+                        ]
+                    },
+                    {
+                        "name": "Fire Mountain",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dino_key"
+                        ]
+                    },
+                    {
+                        "name": "Dino Key",
+                        "chest_unopened_img": "images/Base_Key.png",
+                        "chest_opened_img": "images/Missing_Key.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|1"
+                        ]
+                    },
+                    {
+                        "name": "Dino Trophy",
+                        "chest_unopened_img": "images/Trophy.png",
+                        "chest_opened_img": "images/Missing_Trophy.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "TrophyRacesOn"
+                        ],
+                        "access_rules": [
+                            "tricky2_clear"
+                        ]
+                    }
+                ]
+            }            
+        ]
+    }
+]

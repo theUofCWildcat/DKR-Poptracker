@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "images/Base_Balloon.png",
+        "chest_opened_img": "images/Missing_Balloon.png",
+        "map_locations": [
+            {
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 329,
+                        "y": 294,
+                        "size": 96,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "By Dino Domain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "In Between Waterfalls",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind the Tree",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "In the Ocean",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Taj Car Race",
+                        "item_count": 1,
+                        "access_rules": [
+                            "CheckBalloons|5"
+                        ]
+                    },
+                    {
+                        "name": "Taj Hovercraft Race",
+                        "item_count": 1,
+                        "access_rules": [
+                            "CheckBalloons|10"
+                        ]
+                    },
+                    {
+                        "name": "Taj Plane Race",
+                        "item_count": 1,
+                        "access_rules": [
+                            "CheckBalloons|18"
+                        ]
+                    },
+                    {
+                        "name": "Wizpig 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wizpig4"
+                        ]
+                    }
+                ]
+            }            
+        ]
+    }
+]

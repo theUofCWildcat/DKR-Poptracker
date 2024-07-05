@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Future_Fun_Land",
+        "chest_unopened_img": "images/Base_Balloon.png",
+        "chest_opened_img": "images/Missing_Balloon.png",
+        "access_rules": [
+            "wizpig1_clear",
+            "dino_trophy",
+            "snow_trophy",
+            "sherbet_trophy",
+            "forest_trophy"
+        ],
+        "map_locations": [
+            {
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 700,
+                        "y": 389,
+                        "size": 96,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Spacedust Alley 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|39"
+                        ]
+                    },
+                    {
+                        "name": "Darkmoon Cavern 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|40"
+                        ]
+                    },
+                    {
+                        "name": "Spaceport Alpha 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|41"
+                        ]
+                    },
+                    {
+                        "name": "Star City 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|42"
+                        ]
+                    },
+                    {
+                        "name": "Spacedust Alley 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|43"
+                        ]
+                    },
+                    {
+                        "name": "Darkmoon Cavern 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|44"
+                        ]
+                    },
+                    {
+                        "name": "Spaceport Alpha 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|45"
+                        ]
+                    },
+                    {
+                        "name": "Star City 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|46"
+                        ]
+                    },
+                    {
+                        "name": "Wizpig 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|47",
+                            "tt4"
+                        ]
+                    }
+                ]
+            }            
+        ]
+    }
+]

@@ -1,20 +1,24 @@
-﻿//sets the layout for the broadcast view
-{
+﻿{
     "tracker_broadcast": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
+        "type": "dock",
+        "background": "#212121",
         "content": [
             {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "layout",
-                        "key": "shared_item_grid"
-                    }
-                ]
+                "type": "group",
+                "header": "Items",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "Items"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Settings",
+                "content": {
+                    "type": "layout",
+                    "key": "Settings"
+                }
             }
         ]
     }

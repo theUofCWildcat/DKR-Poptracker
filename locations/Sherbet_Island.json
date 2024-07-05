@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Sherbet_Island",
+        "chest_unopened_img": "images/Base_Balloon.png",
+        "chest_opened_img": "images/Missing_Balloon.png",
+        "access_rules": [
+            "$CheckBalloons|10"
+        ],
+        "map_locations": [
+            {
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 665,
+                        "y": 228,
+                        "size": 96,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Whale Bay 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|10"
+                        ]
+                    },
+                    {
+                        "name": "Crescent Island 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|11"
+                        ]
+                    },
+                    {
+                        "name": "Pirate Lagoon 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|13"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Caves 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|16"
+                        ]
+                    },
+                    {
+                        "name": "Bubbler 1",
+                        "chest_unopened_img": "images/Bubbler.png",
+                        "chest_opened_img": "images/Missing_Bubbler.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckSherbetBalloons|4"
+                        ]
+                    },
+                    {
+                        "name": "Whale Bay 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|17",
+                            "bubbler1_clear"
+                        ]
+                    },
+                    {
+                        "name": "Crescent Island 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|18",
+                            "bubbler1_clear"
+                        ]
+                    },
+                    {
+                        "name": "Pirate Lagoon 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|20",
+                            "bubbler1_clear"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Caves 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|22",
+                            "bubbler1_clear"
+                        ]
+                    },
+                    {
+                        "name": "Bubbler 2",
+                        "chest_unopened_img": "images/Bubbler2.png",
+                        "chest_opened_img": "images/Missing_Bubbler.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckSherbetBalloons|8",
+                            "bubbler1_clear"
+                        ]
+                    },
+                    {
+                        "name": "Darkwater Beach",
+                        "item_count": 1,
+                        "access_rules": [
+                            "sherbert_key"
+                        ]
+                    },
+                    {
+                        "name": "Sherbet Key",
+                        "chest_unopened_img": "images/Base_Key.png",
+                        "chest_opened_img": "images/Missing_Key.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$CheckBalloons|11"
+                        ]
+                    },
+                    {
+                        "name": "Sherbet Trophy",
+                        "chest_unopened_img": "images/Trophy.png",
+                        "chest_opened_img": "images/Missing_Trophy.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "TrophyRacesOn"
+                        ],
+                        "access_rules": [
+                            "bubbler2_clear"
+                        ]
+                    }
+                ]
+            }            
+        ]
+    }
+]

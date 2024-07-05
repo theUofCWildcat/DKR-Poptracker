@@ -1,33 +1,46 @@
-// sets layouts for shadred items grids
-// bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
 {
-    "shared_item_grid": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
-        "content": [
-            {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "10, 10",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "toggle",
-                                "progressive"           
-                            ],
-                            [
-                                "consumable",
-                                "progressive_toggle"
-                            ]
-                        ]
-                    }
-                ]
-            }
+    "Items": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "4,4",
+        "item_size": 64,
+        "rows": [
+            [
+                "total_balloons",
+                "wizpig_amulet",
+                "tt_amulet",
+                "wizpig"
+            ],
+            [
+                "dino_balloons",
+                "snow_balloons",
+                "sherbet_balloons",
+                "forest_balloons"
+            ],
+            [
+                "dino_key",
+                "snow_key",
+                "sherbet_key",
+                "forest_key"
+            ],
+            [
+                "tricky",
+                "bluey",
+                "bubbler",
+                "smokey"
+            ],
+            [
+                "dino_trophy",
+                "snow_trophy",
+                "sherbet_trophy",
+                "forest_trophy"
+            ],
+            [
+                "future_balloons",
+                "",
+                "",
+                ""
+            ]
         ]
     }
 }

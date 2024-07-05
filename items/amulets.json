@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Wizpig Amulet",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "wizpig_amulet",
+        "stages": [
+            {
+                "img": "images/items/Wizpig_Amulet_0.png",
+                "codes": "wizpig0",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/Wizpig_Amulet_1.png",
+                "codes": "wizpig1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/Wizpig_Amulet_2.png",
+                "codes": "wizpig2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/Wizpig_Amulet_3.png",
+                "codes": "wizpig3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/Wizpig_Amulet_FULL.png",
+                "codes": "wizpig4",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "TT Amulet",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "tt_amulet",
+        "stages": [
+            {
+                "img": "images/items/TT_Amulet_0.png",
+                "codes": "tt0",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/TT_Amulet_1.png",
+                "codes": "tt1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/TT_Amulet_2.png",
+                "codes": "tt2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/TT_Amulet_3.png",
+                "codes": "wtt3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/TT_Amulet_FULL.png",
+                "codes": "tt4",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

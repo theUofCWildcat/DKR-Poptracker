@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Total_Ballons",
+        "type": "consumable",
+        "img": "images/items/Base_Ballon.png",
+        "max_quantity": 47,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "total_balloons"
+    },
+    {
+        "name": "Dino_Ballons",
+        "type": "consumable",
+        "img": "images/items/Dino_Ballons.png",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "dino_balloons"
+    },
+    {
+        "name": "Snow_Ballons",
+        "type": "consumable",
+        "img": "images/items/Snow_Ballons.png",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "snow_balloons"
+    },
+    {
+        "name": "Sherbet_Ballons",
+        "type": "consumable",
+        "img": "images/items/Sherbet_Ballons.png",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "sherbet_balloons"
+    },
+    {
+        "name": "Forest_Ballons",
+        "type": "consumable",
+        "img": "images/items/Forest_Ballons.png",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "forest_balloons"
+    },
+    {
+        "name": "Future_Ballons",
+        "type": "consumable",
+        "img": "images/items/Future_Ballons.png",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "future_balloons"
+    }
+]

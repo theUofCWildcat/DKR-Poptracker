@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Dino_Trophy",
+        "type": "toggle",
+        "img": "images/items/Dino_Trophy",
+        "codes": "dino_trophy"
+    },
+    {
+        "name": "Snow_Trophy",
+        "type": "toggle",
+        "img": "images/items/Snow_Trophy",
+        "codes": "snow_trophy"
+    },
+    {
+        "name": "Sherbet_Trophy",
+        "type": "toggle",
+        "img": "images/items/Sherbet_Trophy",
+        "codes": "sherbet_trophy"
+    },
+    {
+        "name": "Forest_Trophy",
+        "type": "toggle",
+        "img": "images/items/Forest_Trophy",
+        "codes": "forest_trophy"
+    }
+]
