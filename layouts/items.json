@@ -9,7 +9,7 @@
                 "total_balloons",
                 "wizpig_amulet",
                 "tt_amulet",
-                "wizpig"
+                "timber_balloons"
             ],
             [
                 "dino_balloons",
@@ -37,8 +37,8 @@
             ],
             [
                 "future_balloons",
-                "",
-                "",
+                "wizpig",
+                "wizpig_2",
                 ""
             ]
         ]

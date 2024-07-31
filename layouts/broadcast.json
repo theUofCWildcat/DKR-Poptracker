@@ -2,24 +2,30 @@
     "tracker_broadcast": {
         "type": "dock",
         "background": "#212121",
-        "content": [
-            {
-                "type": "group",
-                "header": "Items",
-                "dock": "top",
-                "content": {
-                    "type": "layout",
-                    "key": "Items"
+        "content": {           
+            "type": "dock",
+            "dock": "left",
+            "v_alignment": "stretch",
+            "margin": "0,0,0,0",
+            "content": [
+                {
+                    "type": "dock",
+                    "header": "Items",
+                    "dock": "top",
+                    "content": {
+                        "type": "layout",
+                        "key": "Items"
+                    }
+                },
+                {
+                    "type": "dock",
+                    "header": "Settings",
+                    "content": {
+                        "type": "layout",
+                        "key": "Settings"
+                    }
                 }
-            },
-            {
-                "type": "group",
-                "header": "Settings",
-                "content": {
-                    "type": "layout",
-                    "key": "Settings"
-                }
-            }
-        ]
+            ]
+        }
     }
 }

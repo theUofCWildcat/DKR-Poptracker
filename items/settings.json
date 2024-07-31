@@ -10,12 +10,14 @@
             {
                 "name": "Wizpig 1",
                 "img": "images/items/Wizpig.png",
-                "codes": "beat_wizpig1"
+                "codes": "beat_wizpig1",
+                "inherit_codes": false
             },
             {
                 "name": "Wizpig 2",
                 "img": "images/items/Wizpig2.png",
-                "codes": "beat_wizpig2"
+                "codes": "beat_wizpig2",
+                "inherit_codes": false
             }
         ]
     },
@@ -30,12 +32,14 @@
             {
                 "name": "Wizpig Amulet Unshuffled",
                 "img": "images/items/Wizpig_Amulet_Unshuffled.png",
-                "codes": "wp_amulet_unshuffled"
+                "codes": "wp_amulet_unshuffled",
+                "inherit_codes": false
             },
             {
                 "name": "Wizpig Amulet Shuffled",
                 "img": "images/items/Wizpig_Amulet_Shuffled.png",
-                "codes": "wp_amulet_shuffled"
+                "codes": "wp_amulet_shuffled",
+                "inherit_codes": false
             }
         ]
     },
@@ -50,12 +54,14 @@
             {
                 "name": "TT Amulet Unshuffled",
                 "img": "images/items/TT_Amulet_Unshuffled.png",
-                "codes": "tt_amulet_unshuffled"
+                "codes": "tt_amulet_unshuffled",
+                "inherit_codes": false
             },
             {
                 "name": "TT Amulet Shuffled",
                 "img": "images/items/TT_Amulet_Shuffled.png",
-                "codes": "tt_amulet_shuffled"
+                "codes": "tt_amulet_shuffled",
+                "inherit_codes": false
             }
         ]
     },
@@ -65,17 +71,19 @@
         "loop": "true",
         "allow_disabled": false,
         "initial_stage_idx": 0,
-        "codes": "skip_trophy_races",
+        "codes": "skip_trophies",
         "stages": [
-            {
-                "name": "Trophies Skipped",
-                "img": "images/items/Missing_Trophy.png",
-                "codes": "trophies_skipped"
-            },
             {
                 "name": "Trophies In-Logic",
                 "img": "images/items/Trophy.png",
-                "codes": "trophies_unskipped"
+                "codes": "trophies_unskipped",
+                "inherit_codes": false
+            },
+            {
+                "name": "Trophies Skipped",
+                "img": "images/items/Missing_Trophy.png",
+                "codes": "trophies_skipped",
+                "inherit_codes": false
             }
         ]
     }

@@ -8,6 +8,14 @@
         "codes": "total_balloons"
     },
     {
+        "name": "Timbers Island Balloons",
+        "type": "consumable",
+        "img": "images/items/Base_Balloon.png",
+        "max_quantity": 7,
+        "overlay_font_size": 20,
+        "codes": "timber_balloons"
+    },
+    {
         "name": "Dino Domain Balloons",
         "type": "consumable",
         "img": "images/items/Dino_Balloon.png",

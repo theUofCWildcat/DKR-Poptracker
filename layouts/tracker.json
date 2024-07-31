@@ -3,8 +3,8 @@
         "type": "layout",
         "key": "item_tracker"
     },
-    "tracker_broadcast": {
+    "broadcast_track": {
         "type": "layout",
-        "key": "broadcast_tracker"
+        "key": "tracker_broadcast"
     }
 }

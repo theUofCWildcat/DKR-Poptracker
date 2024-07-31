@@ -113,5 +113,24 @@
                 "inherit_codes": true
             }
         ]
+    },
+    {
+        "name": "Wizpig2",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "wizpig_2",
+        "stages": [
+            {
+                "img": "images/items/Missing_Wizpig2.png",
+                "codes": "wizpig2_0_clear",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/Wizpig2.png",
+                "codes": "wizpig2_1_clear",
+                "inherit_codes": true
+            }
+        ]
     }
 ]
